@@ -1,30 +1,94 @@
 ---
-title: "final_exam"
-author: "SungHyunPark"
-date: '2022-06-16'
-output: html_document
+title: "박성현"
+author: 박성현
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: true
+# uncomment this line to produce HTML and PDF in RStudio:
+# knit: pagedown::chrome_print
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r eval=FALSE, include=FALSE}
+library(pagedown)
 ```
 
-## R Markdown
+# Aside
+## 연락처 {#contact}
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+-   <i class="fa fa-envelope"></i> [santabrian06@gmail.com](mailto:santabrian06@gmail.com){.email}
+-   <i class="fa fa-github"></i> [https://github.com/KKDDDS](https://github.com/KKDDDS)
+-   <i class="fa fa-phone"></i> +82 010-5372-2129
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## 역량 {#skills}
 
-```{r cars}
-summary(cars)
-```
+-   고객 데이터 분석과 보기 좋은 UI를 만들어 사람들이 이용하기 편리한 의료플랫폼을 개발하고 싶은 예비창업자
 
-## Including Plots
+-   데이터 분석, 앱개발
 
-You can also embed plots, for example:
+-   R, mySQL, Python, Django, HTML & Css, Flutter
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# Main
+
+## 박성현 {#title}
+
+### 고객데이터 분석 및 활용 수업을 통해 RStudio와 익숙해지기 위해 열심히 공부하였습니다.
+  군대에서 창업에 대한 관심이 커진 이후로, 창업 자체에 대한 기초적인 공부를 해오면서 나의 힘으로 팀을 이끌며 창업을 하기 위해선 모든 전반적인 실무에 대한 자세한 이해와 공부가 많이 필요하다는 것을 느끼게 되었습니다. 그렇게 이번학기 창업관련 강좌를 찾아보면서, 고객데이터 분석 및 활용에 대한 내용을 전반적으로 잘 이해하여 앞으로 제 신조 "내 아이디어를 직접 내 손으로 실현한다"를 이루기 위해 잘 활용 할 수 있을거 같다는 것을 믿어 의심치 않습니다.
+
+## 학력 {data-icon="graduation-cap" data-concise="true"}
+
+### 경기고등학교
+이과계열 졸업
+
+대한민국 서울
+
+2014 -2017
+
+### 한양대학교
+
+자연과학대학 화학과
+
+대한민국 서울
+
+2018-
+
+부전공: 창업융합전공
+
+## 활동 {data-icon="suitcase"}
+
+### 육군 수도군단 수도포병여단
+669부대
+
+대한민국 김포
+
+2019 - 2020
+
+### 창업융합전공 
+
+부전공
+
+대한민국 서울
+
+2021 - 
+
+::: {.concise}
+-   창업기초
+-   디자인싱킹
+:::
+
+
+### 창업실무
+
+강좌 및 동아리 활동
+
+대한민국 서울
+
+2022 -
+
+::: {.concise}
+-   멋쟁이 사자처럼 10기
+-   고객데이터 분석 및 활용 : 이현열 교수님
+-   flutter를 이용한 앱개발
+:::
